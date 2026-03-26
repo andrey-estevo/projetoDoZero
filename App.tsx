@@ -7,10 +7,7 @@ export default function App() {
   return (
     <View >
       <Profile />
-      <Text className="text-xl font-bold text-blue-500">
-        @AndreySantos
-      </Text>
-      <StatusBar style="auto" />
+      <StatusBar style="light" />
     </View>
   );
 }

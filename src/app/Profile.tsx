@@ -1,10 +1,14 @@
+import { User } from "@/components/User";
 import { View, Image } from "react-native";
+
+
 export function Profile (){
     return(
         <View>
             <Image
-            source={require("@/assets/banner.png")}
-            className="w-full h-52"/>
+                source={require("@/assets/banner.png")}
+                className="w-full h-52"/>
+                <User />
         </View>
     )
 }
