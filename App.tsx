@@ -5,9 +5,9 @@ import { Profile } from '@/app/Profile';
 
 export default function App() {
   return (
-    <View >
+    <>
       <Profile />
       <StatusBar style="light" />
-    </View>
+    </>
   );
 }
