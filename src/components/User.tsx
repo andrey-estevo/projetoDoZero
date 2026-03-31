@@ -9,7 +9,7 @@ export function User(){
                 <AvatarFallback>AS</AvatarFallback>
             </Avatar>
             <Text className="text-white font-bold text-2xl mt-4">
-                Andrey Santos
+                Andrey.Estevo
             </Text>
             <Text className="text-gray-400 text-lg">
                 @AndreySantos
